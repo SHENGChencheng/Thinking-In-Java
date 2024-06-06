@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FixedThreadPool",
+            "request": "launch",
+            "mainClass": "TwentyOne.FixedThreadPool",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
+            "name": "CashedThreadPool",
+            "request": "launch",
+            "mainClass": "TwentyOne.CashedThreadPool",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
             "name": "BasicThreads",
             "request": "launch",
             "mainClass": "TwentyOne.BasicThreads",
