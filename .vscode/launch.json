@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BasicThreads",
+            "request": "launch",
+            "mainClass": "TwentyOne.BasicThreads",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
+            "name": "MainThread",
+            "request": "launch",
+            "mainClass": "TwentyOne.MainThread",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
