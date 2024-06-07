@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CallableDemo",
+            "request": "launch",
+            "mainClass": "TwentyOne.CallableDemo",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
+            "name": "SingleThreadExecutor",
+            "request": "launch",
+            "mainClass": "TwentyOne.SingleThreadExecutor",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
             "name": "FixedThreadPool",
             "request": "launch",
             "mainClass": "TwentyOne.FixedThreadPool",
