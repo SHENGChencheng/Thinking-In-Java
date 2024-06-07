@@ -48,7 +48,6 @@ public class Voiture implements Runnable{
             try {
                 Thread.sleep(2 * Voiture.TEMPORISATION);
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             System.out.println(this);
@@ -71,7 +70,6 @@ public class Voiture implements Runnable{
         try {
             Thread.sleep(10 * Voiture.TEMPORISATION);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         Iterator<Voiture> itV1 = setVoiture.iterator();

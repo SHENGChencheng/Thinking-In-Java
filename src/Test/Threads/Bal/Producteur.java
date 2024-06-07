@@ -25,7 +25,6 @@ public class Producteur implements Runnable{
             try {
                 mailBox.deposerUnmessage(nom, lettre);
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

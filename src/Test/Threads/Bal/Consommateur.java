@@ -21,7 +21,6 @@ public class Consommateur implements Runnable{
                 mailBox.lireUnMessage(nom);
                 Thread.sleep((long)(Math.random() * 8000));
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }
