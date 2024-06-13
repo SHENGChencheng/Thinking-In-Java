@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleDaemons",
+            "request": "launch",
+            "mainClass": "Test.SimpleDaemons",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
+            "name": "SimplePriorities",
+            "request": "launch",
+            "mainClass": "TwentyOne.SimplePriorities",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
+            "name": "SleepingTask",
+            "request": "launch",
+            "mainClass": "TwentyOne.SleepingTask",
+            "projectName": "bianchengsixiang_b7437f0a"
+        },
+        {
+            "type": "java",
             "name": "CallableDemo",
             "request": "launch",
             "mainClass": "TwentyOne.CallableDemo",
